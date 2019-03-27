@@ -15,8 +15,8 @@ int main()
     // Create BleButton config params
     BleButtonConfig_t params = {
         .button_pin = BUTTON1,
-        .ble_ind_pin = LED1,
-        .ble_conn_pin = NC,
+        .ble_ind_pin = NC,
+        .ble_conn_pin = LED1,
         .adv_int = 1000
     };
 
